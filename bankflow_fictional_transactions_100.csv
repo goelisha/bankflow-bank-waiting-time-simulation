@@ -1,0 +1,101 @@
+customer_id,arrival_time_min,transaction_type,service_duration_min,eligible_counters
+1,0,Cash Withdrawal,4,Counter 1
+2,1,Cash Deposit,4,Counter 1
+3,1,Cheque Deposit,2,Counter 1; Counter 3
+4,5,Account Services,5,Counter 1; Counter 3
+5,5,Cash Withdrawal,3,Counter 1
+6,6,Cheque Deposit,2,Counter 1; Counter 3
+7,10,Cash Deposit,7,Counter 1
+8,13,Cash Deposit,6,Counter 1
+9,17,Money Transfer,4,Counter 2
+10,18,Account Services,10,Counter 1; Counter 3
+11,20,Cash Deposit,4,Counter 1
+12,22,Cash Withdrawal,2,Counter 1
+13,25,Cash Withdrawal,4,Counter 1
+14,27,Cheque Deposit,4,Counter 1; Counter 3
+15,27,Account Services,6,Counter 1; Counter 3
+16,30,Cash Withdrawal,6,Counter 1
+17,32,Cheque Deposit,4,Counter 1; Counter 3
+18,36,Cash Deposit,3,Counter 1
+19,36,Cash Deposit,5,Counter 1
+20,36,Cash Deposit,3,Counter 1
+21,39,Money Transfer,7,Counter 2
+22,41,Cash Deposit,5,Counter 1
+23,43,Cash Deposit,5,Counter 1
+24,43,Cheque Deposit,3,Counter 1; Counter 3
+25,47,Cash Deposit,4,Counter 1
+26,50,Account Services,9,Counter 1; Counter 3
+27,54,Cash Deposit,5,Counter 1
+28,54,Cash Deposit,3,Counter 1
+29,56,Account Services,9,Counter 1; Counter 3
+30,56,Cash Deposit,7,Counter 1
+31,58,Cash Deposit,6,Counter 1
+32,61,Account Services,7,Counter 1; Counter 3
+33,63,Cash Deposit,4,Counter 1
+34,67,Cheque Deposit,4,Counter 1; Counter 3
+35,71,Account Services,11,Counter 1; Counter 3
+36,73,Cash Deposit,4,Counter 1
+37,77,Account Services,6,Counter 1; Counter 3
+38,77,Cash Withdrawal,3,Counter 1
+39,78,Account Services,6,Counter 1; Counter 3
+40,81,Account Services,12,Counter 1; Counter 3
+41,85,Money Transfer,8,Counter 2
+42,85,Cash Withdrawal,6,Counter 1
+43,87,Money Transfer,4,Counter 2
+44,89,Account Services,7,Counter 1; Counter 3
+45,92,Cash Withdrawal,4,Counter 1
+46,96,Cash Deposit,7,Counter 1
+47,96,Money Transfer,9,Counter 2
+48,100,Cheque Deposit,3,Counter 1; Counter 3
+49,101,Money Transfer,5,Counter 2
+50,105,Cheque Deposit,2,Counter 1; Counter 3
+51,109,Money Transfer,7,Counter 2
+52,109,Cash Withdrawal,4,Counter 1
+53,111,Cash Deposit,3,Counter 1
+54,112,Cheque Deposit,2,Counter 1; Counter 3
+55,112,Account Services,6,Counter 1; Counter 3
+56,116,Cash Deposit,4,Counter 1
+57,119,Cheque Deposit,3,Counter 1; Counter 3
+58,121,Cheque Deposit,5,Counter 1; Counter 3
+59,122,Cheque Deposit,3,Counter 1; Counter 3
+60,124,Account Services,10,Counter 1; Counter 3
+61,127,Cheque Deposit,5,Counter 1; Counter 3
+62,127,Cash Deposit,4,Counter 1
+63,127,Money Transfer,4,Counter 2
+64,131,Cheque Deposit,3,Counter 1; Counter 3
+65,135,Cash Deposit,3,Counter 1
+66,135,Cash Withdrawal,3,Counter 1
+67,135,Cash Withdrawal,4,Counter 1
+68,135,Cheque Deposit,3,Counter 1; Counter 3
+69,137,Account Services,8,Counter 1; Counter 3
+70,141,Cash Deposit,7,Counter 1
+71,145,Account Services,8,Counter 1; Counter 3
+72,148,Account Services,8,Counter 1; Counter 3
+73,148,Cash Withdrawal,5,Counter 1
+74,150,Account Services,11,Counter 1; Counter 3
+75,153,Cash Withdrawal,2,Counter 1
+76,153,Account Services,10,Counter 1; Counter 3
+77,153,Cash Deposit,4,Counter 1
+78,154,Cheque Deposit,5,Counter 1; Counter 3
+79,155,Account Services,7,Counter 1; Counter 3
+80,157,Account Services,8,Counter 1; Counter 3
+81,157,Account Services,6,Counter 1; Counter 3
+82,157,Cheque Deposit,2,Counter 1; Counter 3
+83,157,Cash Deposit,4,Counter 1
+84,160,Account Services,12,Counter 1; Counter 3
+85,161,Account Services,5,Counter 1; Counter 3
+86,162,Account Services,5,Counter 1; Counter 3
+87,165,Money Transfer,7,Counter 2
+88,167,Account Services,12,Counter 1; Counter 3
+89,168,Cash Deposit,5,Counter 1
+90,169,Cash Withdrawal,6,Counter 1
+91,173,Cash Withdrawal,4,Counter 1
+92,173,Cash Withdrawal,6,Counter 1
+93,176,Cheque Deposit,3,Counter 1; Counter 3
+94,176,Cheque Deposit,2,Counter 1; Counter 3
+95,177,Cash Withdrawal,6,Counter 1
+96,177,Cash Deposit,6,Counter 1
+97,177,Cheque Deposit,3,Counter 1; Counter 3
+98,181,Cheque Deposit,2,Counter 1; Counter 3
+99,185,Cash Withdrawal,5,Counter 1
+100,189,Cheque Deposit,4,Counter 1; Counter 3

@@ -1,0 +1,109 @@
+# BankFlow — Bank Branch Waiting-Time Simulation
+
+## Overview
+
+BankFlow is a beginner Python and data-analysis project that explores how counter-allocation rules can affect customer waiting times in a fictional bank branch.
+
+The project simulates 100 fictional customer transactions and compares two scenarios: flexible counter allocation and restricted counter allocation.
+
+**Business question:** Can allowing more transaction types to use different counters reduce customer waiting times?
+
+## Objectives
+
+- Analyze fictional customer transaction data.
+- Simulate customer waiting times under different counter-allocation rules.
+- Compare customer experience across two scenarios.
+- Visualize results and translate findings into potential business insights.
+
+## Tools and Technologies
+
+- **Python** — simulation and calculations
+- **pandas** — data handling and analysis
+- **Matplotlib** — data visualization
+- **Google Colab** — development environment
+- **Excel** — exporting and reviewing results
+
+## Dataset
+
+The project uses a synthetic dataset of 100 fictional transactions.
+
+Each record includes:
+- Customer ID
+- Arrival time
+- Transaction type
+- Service duration
+- Eligible counters
+
+Transaction types include cash withdrawals, cash deposits, money transfers, account services, and cheque deposits.
+
+No real customer or bank data was used.
+
+## Methodology
+
+1. Load and inspect the fictional transaction dataset.
+2. Define illustrative counter-eligibility rules.
+3. Simulate customer queues under flexible and restricted counter allocation.
+4. Validate the simulation outputs.
+5. Compare average, median, and maximum waiting times.
+6. Calculate the number and percentage of customers who experienced a wait.
+7. Visualize the results and export the findings to Excel.
+
+## Key Results
+
+| Metric | Flexible counters | Restricted counters |
+|---|---:|---:|
+| Average waiting time | 3.85 min | 17.55 min |
+| Median waiting time | 0 min | 12.5 min |
+| Longest waiting time | 20 min | 73 min |
+| Customers who waited | 47% | 89% |
+
+### Interpretation
+
+In this simulation, flexible counter allocation resulted in lower waiting times than restricted allocation.
+
+The findings illustrate how operational rules can influence customer experience and why simulation can be useful when exploring business problems.
+
+**Important:** These results are based on fictional data and simplified assumptions. They do not establish the impact of changing counter rules at a real bank.
+
+## Business Recommendation
+
+The results suggest a hypothesis worth investigating: where staff skills, security procedures, and bank policies permit, more flexible transaction routing might help reduce customer waiting times.
+
+A real bank would need to validate this hypothesis using appropriate operational data and controlled testing.
+
+## Limitations
+
+- The dataset is fictional.
+- Counter-allocation rules are illustrative assumptions.
+- The model simplifies real-world staffing and queueing constraints.
+- Results from one simulation are not sufficient to establish real-world performance.
+
+## Future Improvements
+
+- Test the model using authorized, anonymized operational data.
+- Run repeated simulations with different arrival patterns.
+- Model staff availability, breaks, and peak hours.
+- Add queue-length and percentile waiting-time analysis.
+- Build an interactive dashboard for scenario testing.
+
+## How to Run
+
+1. Open the Python notebook in this repository.
+2. Open it in Google Colab.
+3. Upload the provided CSV dataset when prompted by the notebook.
+4. Run the notebook cells in order.
+5. Review the generated charts, scenario comparisons, and results.
+
+Install the required libraries if they are not already available:
+
+```python
+pip install pandas matplotlib openpyxl
+```
+
+## Project Takeaway
+
+BankFlow demonstrates how Python and data analysis can be applied to a practical business question. It combines data preparation, simulation, validation, visualization, and business interpretation in one beginner portfolio project.
+
+**Project type:** Finance / FinTech / Data Analytics  
+**Data:** Fictional and synthetic  
+**Status:** Version 1 completed
